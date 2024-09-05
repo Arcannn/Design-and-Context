@@ -1,0 +1,813 @@
+/* screen - index */
+
+.index {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 428px;
+}
+.index .about-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 356px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .article-of-the-day-article {
+  background-color: transparent;
+  height: auto;
+  left: 5px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .bar-bottom {
+  background-color: var(--black);
+  height: 101px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+.index .bar-pick {
+  background-color: rgba(6,0,0,1.0);
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+.index .bar-top {
+  background-color: var(--black);
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+.index .bar-bottom {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.index .drop-down-bar {
+  background-color: transparent;
+  height: 25px;
+  left: 378px;
+  pointer-events: auto;
+  position: absolute;
+  top: 22px;
+  transition: all 0.2s ease;
+  width: 30px;
+}
+.index .drop-down-bar:hover {
+
+transform: rotate(180deg);
+}
+.index .flex-row {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 95px;
+  justify-content: flex-start;
+  margin-left: 3px;
+  margin-top: 14px;
+  min-width: 421px;
+  position: relative;
+  width: auto;
+}
+.index .group-3-bottom {
+  background-color: transparent;
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 435px;
+}
+.index .history {
+  background-color: transparent;
+  height: auto;
+  left: 45px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 66px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .history:hover {
+
+transform: scale(1.1);
+color: #ff0000;
+}
+.index .home-top {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .home-bottom {
+  background-color: transparent;
+  bottom: 0px;
+  height: 16px;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 30px;
+}
+.index .image-10 {
+  background-color: transparent;
+  height: 93px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  width: 129px;
+}
+.index .image-11 {
+  background-color: transparent;
+  height: 93px;
+  left: 152px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  width: 129px;
+}
+.index .image-12 {
+  background-color: transparent;
+  height: 93px;
+  left: 297px;
+  object-fit: cover;
+  position: absolute;
+  top: 27px;
+  width: 129px;
+}
+.index .image-13 {
+  background-color: transparent;
+  height: 93px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 129px;
+}
+.index .image-14street {
+  background-color: transparent;
+  height: 93px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 129px;
+}
+.index .image-15-news {
+  background-color: transparent;
+  height: 93px;
+  left: 1px;
+  object-fit: cover;
+  position: absolute;
+  top: 1px;
+  width: 129px;
+}
+.index .image-6-article {
+  background-color: transparent;
+  height: 72px;
+  left: 287px;
+  object-fit: cover;
+  position: absolute;
+  top: 11px;
+  width: 107px;
+}
+.index .image-7-article {
+  background-color: transparent;
+  height: 71px;
+  left: 287px;
+  object-fit: cover;
+  position: absolute;
+  top: 94px;
+  width: 107px;
+}
+.index .like-solid-down {
+  background-color: transparent;
+  height: 15px;
+  left: 50px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 163px;
+  transition: all 0.2s ease;
+  width: 15px;
+}
+.index .like-solid-down:hover {
+
+transform: scale(1.1);
+}
+.index .like-solid-article {
+  background-color: transparent;
+  height: 15px;
+  left: 18px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 163px;
+  transition: all 0.2s ease;
+  width: 15px;
+}
+.index .like-solid-article:hover {
+
+transform: scale(1.1);
+}
+.index .line-3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.index .line-2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.index .line-1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.index .line-4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.index .logolarge {
+  background-color: transparent;
+  height: 153px;
+  left: 49px;
+  object-fit: cover;
+  position: absolute;
+  top: 77px;
+  width: 330px;
+}
+.index .logosmallicononly-bottom {
+  background-color: transparent;
+  height: 37px;
+  left: 199px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 37px;
+}
+.index .logosmallicononlyinverted {
+  background-color: transparent;
+  border-radius: 20px;
+  height: 47px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 9px;
+  width: 47px;
+}
+.index .news-news {
+  background-color: transparent;
+  height: auto;
+  left: 45px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 44px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .news-news:hover {
+
+transform: scale(1.1);
+color: #47f200;
+}
+.index .pic-main {
+  background-color: transparent;
+  border-radius: 19px;
+  height: 268px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 428px;
+}
+.index .overlap-group {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 66px;
+  position: relative;
+  width: 428px;
+}
+.index .overlap-group1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 268px;
+  margin-top: 3px;
+  position: relative;
+  width: 428px;
+}
+.index .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 121px;
+  margin-left: -3px;
+  margin-top: 3px;
+  position: relative;
+  width: 435px;
+}
+.index .overlap-group3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 23px;
+  margin-left: -4px;
+  margin-top: 4px;
+  position: relative;
+  width: 435px;
+}
+.index .overlap-group4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 95px;
+  position: relative;
+  width: 131px;
+}
+.index .overlap-group5 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 95px;
+  margin-left: 14px;
+  position: relative;
+  width: 131px;
+}
+.index .overlap-group6 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 95px;
+  margin-left: 14px;
+  position: relative;
+  width: 131px;
+}
+.index .overlap-group7 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 189px;
+  margin-left: 4px;
+  margin-top: 0px;
+  position: relative;
+  width: 434px;
+}
+.index .overlap-group8 {
+  align-self: center;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 28px;
+  margin-left: 1.0px;
+  margin-top: 5px;
+  position: relative;
+  width: 91px;
+}
+.index .overlap-group9 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 101px;
+  margin-left: -3px;
+  margin-top: 6px;
+  position: relative;
+  width: 435px;
+}
+.index .policy-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 395px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .read-more-here-article {
+  -webkit-text-stroke: 0.5px var(--black);
+  background-color: transparent;
+  color: rgba(59,59,59,1.0);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 18px;
+  letter-spacing: 0.00px;
+  line-height: 6px;
+  position: absolute;
+  text-align: left;
+  top: 179px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .rectangle-1 {
+  background-color: rgba(71,123,146,1.0);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 66px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 428px;
+}
+.index .rectangle-23 {
+  background-color: var(--white);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 10px;
+  width: 30px;
+}
+.index .rectangle-22 {
+  background-color: var(--white);
+  bottom: 20px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 30px;
+}
+.index .rectangle-24 {
+  background-color: var(--white);
+  bottom: 0px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 30px;
+}
+.index .bear {
+  background-color: var(--nobel);
+  height: 95px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 131px;
+}
+.index .rectangle-5-news {
+  background-color: var(--nobel);
+  height: 95px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 131px;
+}
+.index .rectangle-53 {
+  background-color: var(--nobel);
+  height: 95px;
+  left: 296px;
+  position: absolute;
+  top: 26px;
+  width: 131px;
+}
+.index .rectangle-51 {
+  background-color: var(--nobel);
+  height: 95px;
+  left: 6px;
+  position: absolute;
+  top: 26px;
+  width: 131px;
+}
+.index .rectangle-52 {
+  background-color: var(--nobel);
+  height: 95px;
+  left: 151px;
+  position: absolute;
+  top: 26px;
+  width: 131px;
+}
+.index .rectangle-5street {
+  background-color: var(--nobel);
+  height: 95px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 131px;
+}
+.index .rectangle-6-article {
+  background-color: rgba(71,123,146,0.502);
+  border-radius: 9px;
+  height: 187px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 420px;
+}
+.index .rectangle-7-news {
+  background-color: var(--black);
+  border-radius: 9px;
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 91px;
+}
+.index .rectangle-8-article {
+  background-color: var(--black);
+  border-radius: 9px;
+  height: 32px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 132px;
+}
+.index .repeat-grid-3-top {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 12px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.index .linespacing-bottom {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: calc(100.00% - 2px);
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 12px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.index .shopstreet {
+  background-color: transparent;
+  height: auto;
+  left: 49px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 44px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .shopstreet:hover {
+
+transform: scale(1.1);
+color: #ff0000;
+}
+.index .the-highest-mou-untain-in-the-w-article {
+  background-color: transparent;
+  color: rgba(59,59,59,1.0);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 5px;
+  font-style: normal;
+  font-weight: 400;
+  height: 66px;
+  left: 5px;
+  letter-spacing: 0.00px;
+  line-height: 8px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  width: 283px;
+}
+.index .the-top-10-high-ns-in-the-world-article {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'MalgunGothic-Bold', Helvetica;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  height: 16px;
+  left: 3px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 36px;
+  width: 358px;
+}
+.index .trending {
+  background-color: transparent;
+  height: auto;
+  left: 335px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 66px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .trending:hover {
+
+transform: scale(1.1);
+color: #ff0000;
+}
+.index .videos-bear {
+  background-color: transparent;
+  height: auto;
+  left: 42px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 44px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .videos-bear:hover {
+
+transform: scale(1.1);
+color: #47f200;
+}
+.index .view-more-news {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Semibold', Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 6px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .view-more-news:hover {
+
+transform: scale(0.9); 
+}
+.index .weather {
+  background-color: transparent;
+  height: auto;
+  left: 188px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 66px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .weather:hover {
+
+transform: scale(1.1);
+color: #ff0000;
+}
+.index .line1 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.index .line3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.index .line2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.index .x1-mount-everest-akalu-himalayas-article {
+  background-color: transparent;
+  color: rgba(3,3,3,1.0);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+  height: 50px;
+  left: 3px;
+  letter-spacing: 0.00px;
+  line-height: 6px;
+  overflow: hidden;
+  position: absolute;
+  text-align: left;
+  top: 114px;
+  width: 431px;
+}
+.index .line4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.index .your-picks {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Semibold', Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 183px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png"
+    href="https://cdn.discordapp.com/attachments/799515286373793792/829786913493614622/logo_small_icon_only.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <style>
+    .component-wrapper,
+    .component-wrapper * {
+      pointer-events: none;
+    }
+
+    .component-wrapper a *,
+    .component-wrapper a,
+    .component-wrapper input,
+    .component-wrapper video,
+    .component-wrapper iframe,
+    .listeners-active,
+    .listeners-active * {
+      pointer-events: auto;
+    }
+
+    .hidden,
+    .hidden * {
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .smart-layers-pointers,
+    .smart-layers-pointers * {
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+    .component-wrapper.not-ready,
+    .component-wrapper.not-ready * {
+      visibility: hidden !important;
+    }
+
+    .listeners-active-click,
+    .listeners-active-click * {
+      cursor: pointer;
+    }
+
+    .border-1px-dove-gray {
+      border: 1px solid var(--dove-gray);
+    }
+
+    .border-1px-white {
+      border: 1px solid var(--white);
+    }
+
+    .border-3px-black {
+      border: 3px solid var(--black);
+    }
+
+    .border-4px-black {
+      border: 4px solid var(--black);
+    }
+
+    .segoeui-bold-white-10px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-16px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-16px-2 {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-50px {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-normal-black-20px {
+      color: var(--black-2);
+      font-family: "SegoeUI-Semibold", Helvetica;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    :root {
+      --black: rgba(0, 0, 0, 1);
+      --black-2: rgba(0, 0, 0, 0.812);
+      --dove-gray: rgba(112, 112, 112, 1);
+      --mountain-mist: rgba(146, 146, 146, 0.49);
+      --nobel: rgba(178, 178, 178, 1);
+      --white: rgba(255, 255, 255, 1);
+      --white-2: rgba(255, 255, 255, 0.812);
+    }
+  </style>
+</head>
+
+<body style="margin: 0; background: rgba(255, 255, 255, 1)">
+  <input type="hidden" id="anPageName" name="page" value="index" />
+  <div class="container-center-horizontal">
+    <div class="index screen">
+
+      <!-- Top of the main page -pictures, and picks bar -->
+      <img class="pictureMain" src="img/npigxcc@1x.png" />
+      <img class="logolarge" src="img/logo-large@1x.png" />
+      <div class="your-picks-bar border-1px-white"></div>
+      <div class="your-picks">Your Picks</div>
+      <div class="blue-back border-1px-white"></div>
+      <div class="art-of-day-back border-1px-white"></div>
+
+      <!--  top picks with pictures and boxes.-->
+      <div class="black-viewmore border-1px-white"></div>
+      <a href="navigationPage.html">
+        <div class="view-more smart-layers-pointers">View more</div>
+      </a>
+
+      <div class="history-back border-1px-dove-gray"></div>
+      <div class="weather-back border-1px-dove-gray"></div>
+      <div class="trending-back border-1px-dove-gray"></div>
+      <div class="videos-back border-1px-dove-gray"></div>
+      <div class="shop-back border-1px-dove-gray"></div>
+      <div class="news-back border-1px-dove-gray"></div>
+      <img class="image-10" src="img/image-10@1x.png" />
+      <img class="image-11" src="img/image-11@1x.png" />
+      <img class="image-12" src="img/image-12@1x.png" />
+      <img class="image-13" src="img/image-13@1x.png" />
+      <img class="image-14" src="img/image-14@1x.png" />
+      <img class="image-15" src="img/image-15@1x.png" />
+      <a href="navigationPage.html">
+        <div class="history segoeui-normal-black-20px smart-layers-pointers">History</div>
+      </a>
+      <div class="news segoeui-normal-black-20px smart-layers-pointers">News</div>
+      <a href="navigationPage.html">
+        <div class="trending segoeui-normal-black-20px smart-layers-pointers">Trending</div>
+      </a>
+      <a href="videoPage.html">
+        <div class="videos segoeui-normal-black-20px smart-layers-pointers">Videos</div>
+      </a>
+      <a href="navigationPage.html">
+        <div class="weather segoeui-normal-black-20px smart-layers-pointers">Weather</div>
+      </a>
+      <a href="navigationPage.html">
+        <div class="shop segoeui-normal-black-20px smart-layers-pointers">Shop</div>
+      </a>
+
+
+      <!-- Article of the day and descriptions -->
+      <div class="article-of-the-day">Article of the day</div>
+      <div class="the-top-10-high-ns-in-the-world">THE TOP 10 HIGHEST MOUNTAINS IN THE WORLD</div>
+      <div class="the-highest-mou-untain-in-the-w">
+        The highest mountain in the world is Mount Everest. It’s pretty famous. Big pointy thing in the Himalayas in
+        Nepal. Sits up at 8,848m. It’s a real high mountain. Everyone knows about Mount Everest. Most people also know
+        the second highest mountain in the world is K2. But very few people know the third highest mountain in the
+        world is called Kangchenjunga. Or how to spell that. It’s not quite as simple as ‘K2’, that’s for sure. So how
+        many of the highest mountains in the world do you really know? By the time you get onto the rest of the 10
+        highest mountains in the world, most don’t have a clue. Why would you? Mount Everest is hogging all the fame.
+        And the more commonly known Seven Summits – the highest mountains on each of the seven continents in the world
+        – don’t make much of an appearance on this list. A top 10 of the world’s highest mountains contains itself
+        exclusively to Asia.
+      </div>
+      <div class="x1-mount-everest-u-himalayas-nep">
+        1. MOUNT EVEREST, HIMALAYAS, NEPAL/TIBET AUTONOMOUS REGION, CHINA – 8848M<br />2. K2, KARAKORAM,
+        PAKISTAN/CHINA – 8611M<br />3. KANGCHENJUNGA, HIMALAYAS, NEPAL/INDIA – 8586M<br />4. LHOTSE, HIMALAYAS,
+        NEPAL/TIBET AUTONOMOUS REGION, CHINA – 8516M<br />5. MAKALU, HIMALAYAS, NEPAL/TIBET AUTONOMOUS REGION, CHINA –
+        8485M<br />
+      </div>
+
+      <!-- Like and dislike b -->
+      <img class="like-solid3 smart-layers-pointers" src="img/like-solid-2@1x.png" />
+      <img class="like-solid smart-layers-pointers" src="img/like-solid-3@1x.png" />
+      <div class="read-more-here">READ MORE HERE</div>
+
+
+      <!-- Mountain pictures. -->
+      <img class="image-6" src="img/image-6@1x.png" />
+      <img class="image-8" src="img/image-8@1x.png" />
+      <img class="image-9" src="img/image-9@1x.png" />
+      <img class="image-7" src="img/image-7@1x.png" />
+
+
+      <img class="logosmallicononly smart-layers-pointers" src="img/logo-small-icon-only@1x.png" />
+      <div class="news-black border-1px-dove-gray"></div>
+
+      <!-- News section, with boxes, pictures and descriptions -->
+      <div class="news2 segoeui-bold-white-50px">NEWS</div>
+      <div class="weather1 border-4px-black"></div>
+      <div class="racer border-4px-black"></div>
+      <div class="easter border-4px-black"></div>
+      <img class="image-16" src="img/image-16@1x.png" />
+      <div class="uk-weather-area-c-temperatures">UK WEATHER: AREAS HIT BY 11CM SNOW AND -4C TEMPERATURES</div>
+      <div class="shiveringly-col-cm-43in-of-snow">
+        Shiveringly cold temperatures, as low as -4.2C, were reported overnight, with parts of the country blanketed
+        by up to 11cm (4.3in) of snow.
+      </div>
+      <img class="image-17" src="img/image-17@1x.png" />
+      <div class="england-born-sk-winter-olympics">
+        ENGLAND-BORN SKELETON RACER ABOUT HER HOPES<br />FOR COMPETING&nbsp;&nbsp;AT NEXT YEAR&#39;S WINTER OLYMPICS
+      </div>
+      <div class="x-dont-gasp-but-chase-her-dream">
+        &#39;Don&#39;t gasp, but it costs £85,000 <br />to compete&#39; - Cohen quits job <br />to chase her dream
+      </div>
+      <img class="image-18" src="img/image-18@1x.png" />
+      <div class="easter-snow">EASTER SNOW</div>
+      <div class="after-a-weekend-tland-on-monday">
+        After a weekend of glorious sunshine for many, it was a different story for large parts of the north of
+        Scotland on Monday.
+      </div>
+
+      <!-- Bottom navigation bar. Allows you to scroll to TOP if you click logo -->
+      <div class="home segoeui-bold-white-10px">Home</div>
+      <div class="black-bar-2 border-1px-white"></div>
+      <div class="black-bar-1 border-1px-white"></div>
+      <img class="line-1" src="img/line-1@1x.png" />
+      <img class="line-12" src="img/line-1@1x.png" />
+      <div class="home2 segoeui-bold-white-16px-2">Home</div>
+      <a href="navigationPage.html">
+        <div class="about segoeui-bold-white-16px">About</div>
+      </a>
+      <a href="navigationPage.html">
+        <div class="policy segoeui-bold-white-16px">Policy</div>
+      </a>
+      <img class="logosmallicononly2 smart-layers-pointers" src="img/logo-small-icon-only-1@1x.png" />
+      <div class="bar border-1px-white"></div>
+      <div class="home3 segoeui-bold-white-16px-2">Home</div>
+      <img class="line-2" src="img/line-1@1x.png" />
+      <img class="line-13" src="img/line-1@1x.png" />
+
+      <!-- Top bar, and clock -->
+      <div class="title-header">
+        <div id="clock">
+          00:00:00
+        </div>
+      
+        <script>
+          function zero_pad(num) {
+            if (!num) { return "00"}
+            else if (num<10) { return "0"+num }
+            else { return num }
+          }
+      
+          function set_time() {
+            var clock_div = document.getElementById("clock")
+      
+            var current_date = new Date()
+            var hours = zero_pad(current_date.getHours())
+            var minutes = zero_pad(current_date.getMinutes())
+            var seconds = zero_pad(current_date.getSeconds())
+      
+            var date_clock =  hours + ":" + minutes + ":" + seconds
+      
+            clock_div.innerHTML = date_clock
+          }
+      
+          setInterval( set_time , 1000) 
+        </script>
+        <div id="localTime">
+          Local Time:
+        </div>
+
+
+      </div>
+      <a href="navigationPage.html">
+        <div class="drop-down-bar smart-layers-pointers">
+          <div class="nav3"></div>
+          <div class="nav2"></div>
+          <div class="nav1"></div>
+        </div>
+      </a>
+      <img class="logosmallicononlyinverted" src="img/logo-small-icon-only-inverted@1x.png" />
+    </div>
+  </div>
+</body>
+
+</html>

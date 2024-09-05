@@ -1,0 +1,545 @@
+/* screen - videoPage */
+
+.videoPage {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 428px;
+}
+.videoPage .about-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 356px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .bar-bottom {
+  background-color: var(--black);
+  height: 101px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+.videoPage .bar-bottom {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.videoPage .bar-top-nav {
+  background-color: var(--black);
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+.videoPage .drop-down-bar-top {
+  background-color: transparent;
+  height: 25px;
+  left: 383px;
+  pointer-events: auto;
+  position: absolute;
+  top: 32px;
+  transition: all 0.2s ease;
+  width: 30px;
+}
+.videoPage .drop-down-bar-top:hover {
+
+transform: rotate(180deg);
+}
+.videoPage .group-6-bottom {
+  background-color: transparent;
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 435px;
+}
+.videoPage .home-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .home-bottom:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+.videoPage .home-top-nav {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .home-top-nav:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+.videoPage .line-7 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-8 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-5 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-6 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .logosmallicononly-bottom {
+  background-color: transparent;
+  height: 37px;
+  left: 199px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 6px;
+  transition: all 0.2s ease;
+  width: 37px;
+}
+.videoPage .logosmallicononly-bottom:hover {
+
+transform: scale(0.9); 
+}
+.videoPage .logosmallicononly-top {
+  background-color: transparent;
+  border-radius: 19px;
+  height: 51px;
+  left: 20px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 20px;
+  transition: all 0.2s ease;
+  width: 51px;
+}
+.videoPage .logosmallicononly-top:hover {
+
+transform: scale(0.9); 
+}
+.videoPage .overlap-group {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 90px;
+  position: relative;
+  width: 428px;
+}
+.videoPage .overlap-group1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 23px;
+  margin-left: 1.0px;
+  margin-top: 7px;
+  position: relative;
+  width: 435px;
+}
+.videoPage .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 101px;
+  margin-left: 1.0px;
+  margin-top: 53px;
+  position: relative;
+  width: 435px;
+}
+.videoPage .overlap-group3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 37px;
+  margin-left: 1.0px;
+  margin-top: 17px;
+  position: relative;
+  width: 201px;
+}
+.videoPage .policy-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 395px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .rectangle-18-top {
+  background-color: var(--black);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 90px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 428px;
+}
+.videoPage .rectangle-2-Top2 {
+  background-color: var(--white);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 10px;
+  width: 30px;
+}
+.videoPage .rectangle-2-Top {
+  background-color: var(--white);
+  bottom: 20px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 30px;
+}
+.videoPage .rectangle-2-Top3 {
+  background-color: var(--white);
+  bottom: 0px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 30px;
+}
+.videoPage .rectangle-47 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 188px;
+  margin-left: 1.0px;
+  margin-top: 16px;
+  overflow: hidden;
+  position: relative;
+  width: 409px;
+}
+.videoPage .rectangle-48 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 188px;
+  margin-left: 1.0px;
+  margin-top: 9px;
+  overflow: hidden;
+  position: relative;
+  width: 409px;
+}
+.videoPage .rectangle-49 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 188px;
+  margin-left: 1.0px;
+  margin-top: 9px;
+  overflow: hidden;
+  position: relative;
+  width: 409px;
+}
+.videoPage .rectangle-8-box {
+  background-color: var(--black);
+  border-radius: 9px;
+  height: 34px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 201px;
+}
+.videoPage .repeat-grid-10-top-nav {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 118px;
+  min-width: 5px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.videoPage .repeat-grid-13-top-nav {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 5px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.videoPage .repeat-grid-14-bottom {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 115px;
+  min-width: 5px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 48px;
+  width: auto;
+}
+.videoPage .repeat-grid-4-bottom {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: calc(100.00% - 2px);
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 12px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.videoPage .todays-top-videos-box {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .videos-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 66px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .videos-top {
+  background-color: transparent;
+  height: auto;
+  left: 164px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .videos-top-nav {
+  background-color: transparent;
+  height: auto;
+  left: 69px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .line1 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line5 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line7 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line6 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line8 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}

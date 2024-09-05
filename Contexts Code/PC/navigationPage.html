@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png"
+    href="https://cdn.discordapp.com/attachments/799515286373793792/829786913493614622/logo_small_icon_only.png" />
+  <link rel="stylesheet" type="text/css" href="css/nav.css" />
+  <style>
+    .component-wrapper,
+    .component-wrapper * {
+      pointer-events: none;
+    }
+
+    .component-wrapper a *,
+    .component-wrapper a,
+    .component-wrapper input,
+    .component-wrapper video,
+    .component-wrapper iframe,
+    .listeners-active,
+    .listeners-active * {
+      pointer-events: auto;
+    }
+
+    .hidden,
+    .hidden * {
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .smart-layers-pointers,
+    .smart-layers-pointers * {
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+    .component-wrapper.not-ready,
+    .component-wrapper.not-ready * {
+      visibility: hidden !important;
+    }
+
+    .listeners-active-click,
+    .listeners-active-click * {
+      cursor: pointer;
+    }
+
+    .border-1px-dove-gray {
+      border: 1px solid var(--dove-gray);
+    }
+
+    .border-1px-white {
+      border: 1px solid var(--white);
+    }
+
+    .border-3px-black {
+      border: 3px solid var(--black);
+    }
+
+    .border-4px-black {
+      border: 4px solid var(--black);
+    }
+
+    .segoeui-bold-white-10px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-16px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-16px-2 {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-50px {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-normal-black-20px {
+      color: var(--black-2);
+      font-family: "SegoeUI-Semibold", Helvetica;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    :root {
+      --black: rgba(0, 0, 0, 1);
+      --black-2: rgba(0, 0, 0, 0.812);
+      --dove-gray: rgba(112, 112, 112, 1);
+      --mountain-mist: rgba(146, 146, 146, 0.49);
+      --nobel: rgba(178, 178, 178, 1);
+      --white: rgba(255, 255, 255, 1);
+      --white-2: rgba(255, 255, 255, 0.812);
+    }
+  </style>
+</head>
+
+<body style="margin: 0; background: rgba(255, 255, 255, 1)">
+  <input type="hidden" id="anPageName" name="page" value="navigationPage" />
+  <div class="container-center-horizontal">
+    <div class="navigationPage screen">
+
+      <!-- Top title box - navigation -->
+      <div class="overlap-group1">
+        <div class="title-black-top"></div>
+        <div class="navigation">NAVIGATION</div>
+        <a href="index.html"><img class="logosmallicononly smart-layers-pointers"
+            src="img/logo-small-icon-only@1x.png" /></a>
+        <a href="index.html"><img class="logosmallicononly2 smart-layers-pointers"
+            src="img/logo-small-icon-only@1x.png" /></a>
+      </div>
+
+      <!-- Sections to click on -->
+      <div class="overlap-group2">
+        <img class="image-1" src="img/image-1@1x.png" />
+        <div class="trending-black border-1px-dove-gray"></div>
+        <div class="news-black border-1px-dove-gray"></div>
+        <a href="index.html">
+          <div class="weather-black border-1px-dove-gray"></div>
+        </a>
+        <div class="videos-black border-1px-dove-gray"></div>
+        <div class="shop-black border-1px-dove-gray"></div>
+        <div class="profile-black border-1px-dove-gray"></div>
+        <div class="social-black border-1px-dove-gray"></div>
+        <a href="index.html">
+          <div class="trending segoeui-bold-white-50px smart-layers-pointers">Trending</div>
+        </a>
+        <a href="index.html">
+          <div class="news segoeui-bold-white-50px smart-layers-pointers">News</div>
+        </a>
+        <div class="weather segoeui-bold-white-50px smart-layers-pointers">Weather</div>
+        <a href="videoPage.html">
+          <div class="videos segoeui-bold-white-50px smart-layers-pointers">Videos</div>
+        </a>
+        <a href="index.html">
+          <div class="shop segoeui-bold-white-50px smart-layers-pointers">Shop</div>
+        </a>
+        <div class="profile segoeui-bold-white-50px smart-layers-pointers">Profile</div>
+        <a href="index.html">
+          <div class="social-media segoeui-bold-white-50px smart-layers-pointers">Social Media</div>
+        </a>
+        <div class="home-black"></div>
+        <a href="index.html">
+          <div class="home segoeui-bold-white-50px smart-layers-pointers">Home</div>
+        </a>
+        <div class="history-black"></div>
+        <div class="history segoeui-bold-white-50px smart-layers-pointers">History</div>
+      </div>
+
+      <!-- Bottom navigation bar. -->
+      <div class="overlap-group">
+        <div class="home-1 segoeui-bold-white-10px">Home</div>
+        <div class="black-bottom border-1px-white"></div>
+        <div class="bottom-nav-black border-1px-white"></div>
+        <img class="line-1" src="img/line-1@1x.png" />
+        <img class="line-133" src="img/line-1@1x.png" />
+        <a href="index.html">
+          <div class="home33 smart-layers-pointers">Home</div>
+        </a>
+        <a href="index.html">
+          <div class="about segoeui-bold-white-16px">About</div>
+        </a>
+        <a href="index.html">
+          <div class="policy segoeui-bold-white-16px">Policy</div>
+        </a>
+        <a href="index.html"><img class="logosmallicononly1" src="img/logo-small-icon-only-4@1x.png" /></a>
+        <div class="navigation1 segoeui-bold-white-16px-2">Navigation</div>
+        <img class="line-3" src="img/line-1@1x.png" />
+        <img class="line-4" src="img/line-1@1x.png" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+/* screen - navigationPage */
+
+.navigationPage {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 2044px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.navigationPage .about {
+  background-color: transparent;
+  height: auto;
+  left: 1800px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .about:hover {
+
+  color: white;
+  }
+.navigationPage .black-bottom {
+  background-color: var(--black);
+  height: 125px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1922px;
+}
+.navigationPage .bottom-nav-black {
+  background-color: var(--black);
+  height: 34px;
+  left: 1px;
+  position: absolute;
+  top: 91px;
+  width: 1921px;
+}
+.navigationPage .history {
+  background-color: transparent;
+  height: auto;
+  left: 792px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1580px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .history:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .history-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 1553px;
+  width: 400px;
+}
+.navigationPage .home {
+  background-color: transparent;
+  height: auto;
+  left: 807px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 162px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .home:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .home-1 {
+  background-color: transparent;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 71px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .home33 {
+  background-color: transparent;
+  color: var(--nobel);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 8px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .home33:hover {
+
+transform: scale(1.1);
+color: white;
+}
+.navigationPage .home-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 134px;
+  width: 400px;
+}
+.navigationPage .image-1 {
+  background-color: transparent;
+  height: 1755px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 1756px;
+}
+.navigationPage .line-1 {
+  background-color: transparent;
+  height: 34px;
+  left: 58px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.navigationPage .line-133 {
+  background-color: transparent;
+  height: 34px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.navigationPage .line-3 {
+  background-color: transparent;
+  height: 34px;
+  left: 172px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.navigationPage .line-4 {
+  background-color: transparent;
+  height: 34px;
+  left: 176px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.navigationPage .logosmallicononly1 {
+  background-color: transparent;
+  height: 79px;
+  left: 923px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 79px;
+}
+.navigationPage .logosmallicononly1:hover {
+  transform: scale(0.9); 
+}
+.navigationPage .logosmallicononly {
+  background-color: transparent;
+  height: 96px;
+  left: 41px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 13px;
+  transition: all 0.2s ease;
+  width: 96px;
+}
+.navigationPage .logosmallicononly:hover {
+
+transform: scale(0.9); 
+}
+.navigationPage .logosmallicononly2 {
+  background-color: transparent;
+  height: 96px;
+  left: 1790px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 14px;
+  transition: all 0.2s ease;
+  width: 96px;
+}
+.navigationPage .logosmallicononly2:hover {
+
+transform: scale(0.9); 
+}
+.navigationPage .navigation1 {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .navigation {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 743px;
+  letter-spacing: 0.00px;
+  line-height: 73px;
+  position: absolute;
+  text-align: left;
+  top: 26px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .news {
+  background-color: transparent;
+  height: auto;
+  left: 814px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 588px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .news:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .news-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 559px;
+  width: 400px;
+}
+.navigationPage .overlap-group {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 126px;
+  margin-right: 2.0px;
+  margin-top: 40px;
+  position: relative;
+  width: 1922px;
+}
+.navigationPage .overlap-group1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 124px;
+  position: relative;
+  width: 1920px;
+}
+.navigationPage .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1755px;
+  margin-top: 0px;
+  position: relative;
+  width: 1756px;
+}
+.navigationPage .policy {
+  background-color: transparent;
+  height: auto;
+  left: 1864px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .policy:hover {
+
+  color: white;
+  }
+.navigationPage .profile {
+  background-color: transparent;
+  height: auto;
+  left: 801px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1412px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .profile:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .profile-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 1388px;
+  width: 400px;
+}
+.navigationPage .shop {
+  background-color: transparent;
+  height: auto;
+  left: 818px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1084px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .shop:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .shop-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 1056px;
+  width: 400px;
+}
+.navigationPage .social-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 1220px;
+  width: 400px;
+}
+.navigationPage .social-media {
+  background-color: transparent;
+  height: auto;
+  left: 729px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1252px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .social-media:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .title-black-top {
+  background-color: var(--black);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.navigationPage .trending {
+  background-color: transparent;
+  height: auto;
+  left: 774px;
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 408px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .trending:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .trending-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 392px;
+  width: 400px;
+}
+.navigationPage .videos {
+  background-color: transparent;
+  height: auto;
+  left: 799px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 920px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .videos:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .videos-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 891px;
+  width: 400px;
+}
+.navigationPage .weather {
+  background-color: transparent;
+  height: auto;
+  left: 779px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 752px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .weather:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .weather-black {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 70px;
+  left: 678px;
+  position: absolute;
+  top: 724px;
+  width: 400px;
+}

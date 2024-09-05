@@ -1,0 +1,663 @@
+/* screen - newsPage */
+
+.newsPage {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 926px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 428px;
+}
+.newsPage .about-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 356px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .after-a-weekend-tland-on-monday-easter {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: 143px;
+  left: 45px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 52px;
+  width: 266px;
+}
+.newsPage .bar-bottom {
+  background-color: var(--black);
+  height: 108px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+.newsPage .bar-nav {
+  background-color: var(--black);
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 435px;
+}
+.newsPage .bar-bottom {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.newsPage .drop-down-bar {
+  background-color: transparent;
+  height: 25px;
+  left: 383px;
+  pointer-events: auto;
+  position: absolute;
+  top: 32px;
+  transition: all 0.2s ease;
+  width: 30px;
+}
+.newsPage .drop-down-bar:hover {
+
+transform: rotate(180deg);
+}
+.newsPage .easter-snow-easter {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: 37px;
+  left: 85px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 12px;
+  width: 186px;
+}
+.newsPage .england-born-sk-winter-olympics-racer {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 8px;
+  letter-spacing: 0.00px;
+  line-height: 27px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .group-7-bottom {
+  background-color: transparent;
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 435px;
+}
+.newsPage .home-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .home-bottom:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+.newsPage .home-nav {
+  background-color: transparent;
+  height: 14px;
+  left: 13px;
+  pointer-events: auto;
+  position: absolute;
+  top: 5px;
+  transition: all 0.2s ease;
+  width: 30px;
+}
+.newsPage .home-nav:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+.newsPage .home-Wx7Fd7 {
+  background-color: transparent;
+  height: calc(100.00% + 2px);
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: calc(100.00% + 2px);
+}
+.newsPage .image-16-weather {
+  background-color: transparent;
+  height: 189px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 4px;
+  width: 347px;
+}
+.newsPage .image-17-racer {
+  background-color: transparent;
+  height: 192px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 347px;
+}
+.newsPage .image-18-easter {
+  background-color: transparent;
+  height: 190px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 3px;
+  width: 347px;
+}
+.newsPage .line-7 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .line-1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .line-5 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .line-3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .line-6 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .line-2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .line-8 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .line-4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.newsPage .logosmallicononly-bottom {
+  background-color: transparent;
+  height: 37px;
+  left: 199px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 6px;
+  transition: all 0.2s ease;
+  width: 37px;
+}
+.newsPage .logosmallicononly-bottom:hover {
+
+transform: scale(0.9); 
+}
+.newsPage .logosmallicononly {
+  background-color: transparent;
+  border-radius: 19px;
+  height: 51px;
+  left: 20px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 20px;
+  transition: all 0.2s ease;
+  width: 51px;
+}
+.newsPage .logosmallicononly:hover {
+
+transform: scale(0.9); 
+}
+.newsPage .news-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 72px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .news {
+  background-color: transparent;
+  height: auto;
+  left: 174px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .news-nav {
+  background-color: transparent;
+  height: auto;
+  left: 72px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .overlap-group {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 93px;
+  position: relative;
+  width: 428px;
+}
+.newsPage .overlap-group1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 23px;
+  margin-left: 1.0px;
+  margin-top: 4px;
+  position: relative;
+  width: 435px;
+}
+.newsPage .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 108px;
+  margin-left: 1.0px;
+  margin-top: 40px;
+  position: relative;
+  width: 435px;
+}
+.newsPage .overlap-group3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 196px;
+  margin-left: 1.0px;
+  margin-top: 35px;
+  position: relative;
+  width: 355px;
+}
+.newsPage .overlap-group4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 197px;
+  margin-left: 1.0px;
+  margin-top: 17px;
+  position: relative;
+  width: 355px;
+}
+.newsPage .overlap-group5 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 196px;
+  margin-left: 1.0px;
+  margin-top: 17px;
+  position: relative;
+  width: 355px;
+}
+.newsPage .policy-bottom {
+  background-color: transparent;
+  height: auto;
+  left: 395px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .rectangle-22 {
+  background-color: var(--white);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 10px;
+  width: 30px;
+}
+.newsPage .rectangle-21 {
+  background-color: var(--white);
+  bottom: 20px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 30px;
+}
+.newsPage .rectangle-23 {
+  background-color: var(--white);
+  bottom: 0px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 30px;
+}
+.newsPage .rectangle-27 {
+  background-color: var(--black);
+  height: 93px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 428px;
+}
+.newsPage .rectangle-43-racer {
+  background-color: var(--mountain-mist);
+  height: 197px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 355px;
+}
+.newsPage .rectangle-43-weather {
+  background-color: var(--mountain-mist);
+  height: 196px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 355px;
+}
+.newsPage .rectangle-43-easter {
+  background-color: var(--mountain-mist);
+  height: 196px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 355px;
+}
+.newsPage .repeat-grid-16-nav {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 6px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.newsPage .repeat-grid-17-nav {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 118px;
+  min-width: 6px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.newsPage .repeat-grid-18-bottom {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 117px;
+  min-width: 5px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 48px;
+  width: auto;
+}
+.newsPage .repeat-grid-4-bottom {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: calc(100.00% - 2px);
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 12px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.newsPage .shiveringly-col-cm-43in-of-snow-weather {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  height: 67px;
+  left: 14px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 81px;
+  width: 329px;
+}
+.newsPage .uk-weather-area-c-temperatures-weather {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: 90px;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 10px;
+  width: 338px;
+}
+.newsPage .x-dont-gasp-but-chase-her-dream-racer {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 55px;
+  letter-spacing: 0.00px;
+  line-height: 23px;
+  position: absolute;
+  text-align: center;
+  top: 72px;
+  white-space: nowrap;
+  width: auto;
+}
+.newsPage .line1 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.newsPage .line3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.newsPage .line5 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.newsPage .line7 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.newsPage .line2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.newsPage .line4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.newsPage .line6 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.newsPage .line8 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}

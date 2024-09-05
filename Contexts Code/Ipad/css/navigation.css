@@ -1,0 +1,728 @@
+/* screen - navigationPage */
+
+.navigationPage {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1112px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 834px;
+}
+.navigationPage .about-b {
+  background-color: transparent;
+  height: auto;
+  left: 758px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .Nav-Top {
+  background-color: var(--black);
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 837px;
+}
+.navigationPage .Nav-Bott {
+  background-color: var(--black);
+  height: 108px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 837px;
+}
+.navigationPage .line-bottom {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.navigationPage .component-1-1 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 27px;
+  width: 201px;
+}
+.navigationPage .component-1-9 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 644px;
+  width: 201px;
+}
+.navigationPage .group-7 {
+  background-color: transparent;
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 837px;
+}
+.navigationPage .history {
+  background-color: transparent;
+  height: auto;
+  left: 394px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 663px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .history:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .home-word {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .home-word:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+.navigationPage .home {
+  background-color: transparent;
+  height: auto;
+  left: 396px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 46px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .home:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .home-b {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .home-b:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+.navigationPage .image-1 {
+  background-color: transparent;
+  height: 829px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 829px;
+}
+.navigationPage .line-5 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+.navigationPage .line-8 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.navigationPage .line-1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.navigationPage .line-2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.navigationPage .line-3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.navigationPage .line-4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.navigationPage .line-7 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.navigationPage .line-6 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+
+/* Logo top left and right with the attached hovers allowing the "animation"?? */
+.navigationPage .logosmallicononly-left {
+  background-color: transparent;
+  height: 47px;
+  left: 25px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 23px;
+  transition: all 0.2s ease;
+  width: 47px;
+}
+.navigationPage .logosmallicononly-left:hover {
+transform: scale(0.9); 
+}
+.navigationPage .logosmallicononly-right {
+  background-color: transparent;
+  height: 47px;
+  left: 762px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 23px;
+  transition: all 0.2s ease;
+  width: 47px;
+}
+.navigationPage .logosmallicononly-right:hover {
+transform: scale(0.9); 
+}
+
+.navigationPage .logosmallicononly-b {
+  background-color: transparent;
+  height: 35px;
+  left: 400px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 8px;
+  transition: all 0.2s ease;
+  width: 35px;
+}
+.navigationPage .logosmallicononly-b:hover {
+
+transform: scale(0.9); 
+}
+.navigationPage .navigation-word {
+  background-color: transparent;
+  height: auto;
+  left: 61px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .navigation-top {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 330px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 32px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .navigation-b {
+  background-color: transparent;
+  height: auto;
+  left: 61px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .news {
+  background-color: transparent;
+  height: auto;
+  left: 398px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 236px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .news:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .overlap-group {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 93px;
+  position: relative;
+  width: 833px;
+}
+.navigationPage .overlap-group1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 829px;
+  margin-left: 3px;
+  margin-top: 36px;
+  position: relative;
+  width: 829px;
+}
+.navigationPage .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 23px;
+  margin-top: 4px;
+  position: relative;
+  width: 837px;
+}
+.navigationPage .overlap-group3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 108px;
+  margin-top: 19px;
+  position: relative;
+  width: 837px;
+}
+.navigationPage .policy-b {
+  background-color: transparent;
+  height: auto;
+  left: 797px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .profile {
+  background-color: transparent;
+  height: auto;
+  left: 394px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 591px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .profile:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .rectangle-27-top {
+  background-color: var(--black);
+  height: 93px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 833px;
+}
+.navigationPage .rectangle-28 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 144px;
+  width: 201px;
+}
+.navigationPage .rectangle-29 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 216px;
+  width: 201px;
+}
+.navigationPage .rectangle-30 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 287px;
+  width: 201px;
+}
+.navigationPage .rectangle-31 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 359px;
+  width: 201px;
+}
+.navigationPage .rectangle-32 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 430px;
+  width: 201px;
+}
+.navigationPage .rectangle-34 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 573px;
+  width: 201px;
+}
+.navigationPage .rectangle-35 {
+  background-color: var(--black);
+  border-radius: 24px;
+  height: 47px;
+  left: 317px;
+  position: absolute;
+  top: 501px;
+  width: 201px;
+}
+
+
+.navigationPage .LineSpacing4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 120px;
+  min-width: 6px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 48px;
+  width: auto;
+}
+.navigationPage .LineSpacing3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: calc(100.00% - 2px);
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 6px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.navigationPage .shop {
+  background-color: transparent;
+  height: auto;
+  left: 399px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 449px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .shop:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .social-media {
+  background-color: transparent;
+  height: auto;
+  left: 372px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 520px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .social-media:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .trending {
+  background-color: transparent;
+  height: auto;
+  left: 386px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 164px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .trending:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .videos {
+  background-color: transparent;
+  height: auto;
+  left: 394px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 378px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .videos:hover {
+
+transform: scale(1.1);
+}
+.navigationPage .weather {
+  background-color: transparent;
+  height: auto;
+  left: 387px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 307px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.navigationPage .weather:hover {
+
+transform: scale(1.1);
+}
+
+
+.navigationPage .line7 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.navigationPage .line5 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+
+.navigationPage .line1 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.navigationPage .line2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.navigationPage .line3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.navigationPage .line4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+
+.navigationPage .line8 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.navigationPage .line6 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.navigationPage .LineSpacing-1 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 6px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.navigationPage .LineSpacing-2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 118px;
+  min-width: 6px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}

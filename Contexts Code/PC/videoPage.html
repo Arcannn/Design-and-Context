@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png"
+    href="https://cdn.discordapp.com/attachments/799515286373793792/829786913493614622/logo_small_icon_only.png" />
+  <link rel="stylesheet" type="text/css" href="css/vid.css" />
+  <style>
+    .component-wrapper,
+    .component-wrapper * {
+      pointer-events: none;
+    }
+
+    .component-wrapper a *,
+    .component-wrapper a,
+    .component-wrapper input,
+    .component-wrapper video,
+    .component-wrapper iframe,
+    .listeners-active,
+    .listeners-active * {
+      pointer-events: auto;
+    }
+
+    .hidden,
+    .hidden * {
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .smart-layers-pointers,
+    .smart-layers-pointers * {
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+    .component-wrapper.not-ready,
+    .component-wrapper.not-ready * {
+      visibility: hidden !important;
+    }
+
+    .listeners-active-click,
+    .listeners-active-click * {
+      cursor: pointer;
+    }
+
+    .border-1px-dove-gray {
+      border: 1px solid var(--dove-gray);
+    }
+
+    .border-1px-white {
+      border: 1px solid var(--white);
+    }
+
+    .border-3px-black {
+      border: 3px solid var(--black);
+    }
+
+    .border-4px-black {
+      border: 4px solid var(--black);
+    }
+
+    .segoeui-bold-white-10px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-16px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-16px-2 {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-50px {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-normal-black-20px {
+      color: var(--black-2);
+      font-family: "SegoeUI-Semibold", Helvetica;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    :root {
+      --black: rgba(0, 0, 0, 1);
+      --black-2: rgba(0, 0, 0, 0.812);
+      --dove-gray: rgba(112, 112, 112, 1);
+      --mountain-mist: rgba(146, 146, 146, 0.49);
+      --nobel: rgba(178, 178, 178, 1);
+      --white: rgba(255, 255, 255, 1);
+      --white-2: rgba(255, 255, 255, 0.812);
+    }
+  </style>
+</head>
+
+<body style="margin: 0; background: rgba(255, 255, 255, 1)">
+  <input type="hidden" id="anPageName" name="page" value="videoPage" />
+  <div class="container-center-horizontal">
+    <div class="videoPage screen">
+
+
+      <!-- Top title section -->
+      <div class="overlap-group">
+        <div class="title-black"></div>
+        <a href="index.html"><img class="logosmallicononly smart-layers-pointers"
+            src="img/logo-small-icon-only@1x.png" /></a>
+        <div class="videos">VIDEOS</div>
+        <a href="navigationPage.html">
+          <div class="navigation smart-layers-pointers">
+            <div class="rectangle-21"></div>
+            <div class="rectangle-22"></div>
+            <div class="rectangle-23"></div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Todays top videos and showing the boxes for the iframe/videos to fit into. -->
+      <div class="overlap-group1">
+        <div class="black-top-video border-1px-white"></div>
+        <div class="todays-top-videos">Todays Top Videos</div>
+      </div>
+      <div class="flex-row">
+        <div class="video1 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/p8NrGr3AbuY?rel=0&mute=1&autoplay=1" frameborder="0"
+            allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen"
+            msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen"
+            webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+        <div class="video4 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/xsEMjWdgRdw?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+        <div class="video7 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/aXy9pwMwOnA?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+      </div>
+      <div class="flex-row-1">
+        <div class="video2 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/HTZllp87noA?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+        <div class="video5 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/axNnKy-jfWw?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+        <div class="video8 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/p8NrGr3AbuY?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+      </div>
+      <div class="flex-row-2">
+        <div class="video3 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/O1CZEcDXxh8?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+        <div class="video6 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/WJUrUHjRgoI?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+        <div class="video9 border-3px-black">
+          <iframe style="border: 0; pointer-events: auto" id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/unos1yD5ToU?rel=0" frameborder="0" allowfullscreen="allowfullscreen"
+            mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen"
+            oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+        </div>
+      </div>
+
+      <!-- bottom navigation section. -->
+      <div class="overlap-group2">
+        <div class="home9 segoeui-bold-white-10px">Home</div>
+        <div class="bottom-bar-black9 border-1px-white"></div>
+        <div class="bottom-nav-black9 border-1px-white"></div>
+        <img class="line-12" src="img/line-1@1x.png" />
+        <img class="line-19" src="img/line-1@1x.png" />
+        <a href="index.html">
+          <div class="home1 smart-layers-pointers">Home</div>
+        </a>
+        <a href="navigationPage.html">
+          <div class="about9 segoeui-bold-white-16px">About</div>
+        </a>
+        <a href="navigationPage.html">
+          <div class="policy9 segoeui-bold-white-16px">Policy</div>
+        </a>
+        <a href="index.html"><img class="logosmallicononly9 smart-layers-pointers"
+            src="img/logo-small-icon-only-4@1x.png" /></a>
+        <div class="videos9 segoeui-bold-white-16px-2">Videos</div>
+        <img class="line-21" src="img/line-1@1x.png" />
+        <img class="line-24" src="img/line-1@1x.png" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

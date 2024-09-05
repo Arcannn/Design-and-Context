@@ -1,0 +1,574 @@
+
+ /* keeping the video's to the center: */
+.videoPage {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1112px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 834px;
+}
+/* about at the bottom */
+.videoPage .about {
+  background-color: transparent;
+  height: auto;
+  left: 758px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+ /* bottom bar */
+.videoPage .bar {
+  background-color: var(--black);
+  height: 101px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 837px;
+}
+.videoPage .bar-2 {
+  background-color: var(--black);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.videoPage .bar-navTop {
+  background-color: var(--black);
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 837px;
+}
+.videoPage .drop-down-bar-Videos {
+  background-color: transparent;
+  height: 25px;
+  left: 785px;
+  position: absolute;
+  top: 33px;
+  width: 30px;
+}
+.videoPage .group-6 {
+  background-color: transparent;
+  height: 23px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 837px;
+}
+.videoPage .home {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .home:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+.videoPage .home-navTop {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .home-navTop:hover {
+
+transform: scale(0.9); 
+color: white;
+}
+
+.videoPage .logosmallicononly {
+  background-color: transparent;
+  border-radius: 21px;
+  height: 41px;
+  left: 400px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 4px;
+  transition: all 0.2s ease;
+  width: 41px;
+}
+.videoPage .logosmallicononly:hover {
+
+transform: scale(0.9); 
+}
+.videoPage .logosmallicononly-Videos {
+  background-color: transparent;
+  height: 63px;
+  left: 26px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 11px;
+  transition: all 0.2s ease;
+  width: 63px;
+}
+
+.videoPage .logosmallicononly-Videos:hover {
+transform: scale(0.9); 
+}
+
+.videoPage .overlap-group {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 90px;
+  position: relative;
+  width: 834px;
+}
+.videoPage .overlap-group1{
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 23px;
+  margin-right: 3.0px;
+  margin-top: 7px;
+  position: relative;
+  width: 837px;
+}
+.videoPage .overlap-groupBottom {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 101px;
+  margin-right: 3.0px;
+  margin-top: 45px;
+  position: relative;
+  width: 837px;
+}
+.videoPage .overlap-group3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 37px;
+  margin-left: 1.0px;
+  margin-top: 20px;
+  position: relative;
+  width: 201px;
+}
+.videoPage .overlap-group4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 1.0px;
+  margin-top: 20px;
+  position: relative;
+  width: 531px;
+}
+.videoPage .policy {
+  background-color: transparent;
+  height: auto;
+  left: 797px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 82px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .rectangle-Videos {
+  background-color: var(--black);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 90px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 834px;
+}
+.videoPage .rectangle-2-Nav {
+  background-color: var(--white);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: calc(50.00% - 2px);
+  width: 100%;
+}
+.videoPage .rectangle-1-Nav {
+  background-color: var(--white);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.videoPage .rectangle-3-Nav {
+  background-color: var(--white);
+  bottom: 0px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+
+
+/* Holding the videos: */
+.videoPage .rectangle-video {
+  background-color: transparent;
+  height: 239px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 531px;
+}
+.videoPage .rectangle-video1 {
+  background-color: transparent;
+  height: 239px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 531px;
+}
+.videoPage .rectangle-video2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 1.0px;
+  margin-top: 26px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .rectangle-video3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 1.0px;
+  margin-top: 26px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+
+/* Title for "Todays Top Videos" */
+.videoPage .rectangle-todayBlack {
+  background-color: var(--black);
+  border-radius: 9px;
+  height: 34px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 201px;
+}
+.videoPage .todays-top-videos-todayBlack {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .videos {
+  background-color: transparent;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 54px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .videos-Videos {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 331px;
+  letter-spacing: 0.00px;
+  line-height: 48px;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .videos-navTop {
+  background-color: transparent;
+  height: auto;
+  left: 60px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+
+/* Bar lines between Home and video and after*/
+.videoPage .line {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line3 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line4 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line5 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line6 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line7 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line8 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 21px;
+  justify-content: center;
+  margin-left: 4px;
+  min-width: 0px;
+  position: relative;
+  width: auto;
+}
+.videoPage .line-1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-3 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-5 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-6{
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-7{
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+.videoPage .line-8{
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 21px;
+  object-fit: cover;
+  position: relative;
+  width: 1px;
+}
+
+/* Spacing the white line images out at the nav bars. */
+.videoPage .Line-Spacing {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: calc(100.00% - 2px);
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 6px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.videoPage .Line-Spacing2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 100px;
+  min-width: 5px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 48px;
+  width: auto;
+}
+.videoPage .LineSpacing2-navTop {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 99px;
+  min-width: 5px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}
+.videoPage .LineSpacing-navTop {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: 21px;
+  justify-content: flex-start;
+  left: 48px;
+  min-width: 5px;
+  padding: 0 0.5px;
+  position: absolute;
+  top: 1px;
+  width: auto;
+}

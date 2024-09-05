@@ -1,0 +1,410 @@
+/* screen - videoPage */
+
+.videoPage {
+  align-items: center;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 1186px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.videoPage .about9 {
+  background-color: transparent;
+  height: auto;
+  left: 1800px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .black-top-video {
+  background-color: var(--black);
+  border-radius: 9px;
+  height: 34px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 201px;
+}
+.videoPage .bottom-bar-black9 {
+  background-color: var(--black);
+  height: 125px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1922px;
+}
+.videoPage .bottom-nav-black9 {
+  background-color: var(--black);
+  height: 34px;
+  left: 1px;
+  position: absolute;
+  top: 91px;
+  width: 1921px;
+}
+.videoPage .flex-row {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 240px;
+  justify-content: flex-start;
+  margin-left: 39.0px;
+  margin-top: 19px;
+  min-width: 1655px;
+  position: relative;
+  width: auto;
+}
+.videoPage .flex-row-1 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 240px;
+  justify-content: flex-start;
+  margin-left: 39.0px;
+  margin-top: 25px;
+  min-width: 1655px;
+  position: relative;
+  width: auto;
+}
+.videoPage .flex-row-2 {
+  align-items: flex-start;
+  background-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 240px;
+  justify-content: flex-start;
+  margin-left: 39.0px;
+  margin-top: 25px;
+  min-width: 1655px;
+  position: relative;
+  width: auto;
+}
+.videoPage .home9 {
+  background-color: transparent;
+  height: auto;
+  left: 15px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 71px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .home1 {
+  background-color: transparent;
+  color: rgba(188,188,188,1.0);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 8px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .home1:hover {
+
+transform: scale(1.1);
+color: white;
+}
+.videoPage .line-19 {
+  background-color: transparent;
+  height: 34px;
+  left: 62px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.videoPage .line-24 {
+  background-color: transparent;
+  height: 34px;
+  left: 136px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.videoPage .line-12 {
+  background-color: transparent;
+  height: 34px;
+  left: 58px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.videoPage .line-21 {
+  background-color: transparent;
+  height: 34px;
+  left: 132px;
+  object-fit: cover;
+  position: absolute;
+  top: 92px;
+  width: 1px;
+}
+.videoPage .logosmallicononly9 {
+  background-color: transparent;
+  height: 79px;
+  left: 923px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 6px;
+  transition: all 0.2s ease;
+  width: 79px;
+}
+.videoPage .logosmallicononly9:hover {
+
+transform: scale(0.9); 
+}
+.videoPage .logosmallicononly {
+  background-color: transparent;
+  height: 96px;
+  left: 41px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 13px;
+  transition: all 0.2s ease;
+  width: 96px;
+}
+.videoPage .logosmallicononly:hover {
+
+transform: scale(0.9); 
+}
+.videoPage .navigation {
+  background-color: transparent;
+  height: 50px;
+  left: 1833px;
+  pointer-events: auto;
+  position: absolute;
+  top: 28px;
+  transition: all 0.2s ease;
+  width: 60px;
+}
+.videoPage .navigation:hover {
+
+transform: rotate(180deg);
+}
+.videoPage .overlap-group {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 124px;
+  position: relative;
+  width: 1920px;
+}
+.videoPage .overlap-group1 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 37px;
+  margin-left: 1.0px;
+  margin-top: 16px;
+  position: relative;
+  width: 201px;
+}
+.videoPage .overlap-group2 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 126px;
+  margin-left: 2.0px;
+  margin-top: 94px;
+  position: relative;
+  width: 1922px;
+}
+.videoPage .policy9 {
+  background-color: transparent;
+  height: auto;
+  left: 1864px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .rectangle-22 {
+  background-color: var(--white);
+  bottom: calc(48.89% - 2px);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+.videoPage .rectangle-23 {
+  background-color: var(--white);
+  bottom: 0px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+.videoPage .rectangle-21 {
+  background-color: var(--white);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.videoPage .title-black {
+  background-color: var(--black);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 124px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.videoPage .todays-top-videos {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 9px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 7px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .video1 {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video2 {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video3 {
+  align-self: flex-end;
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video4 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 31px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video5 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 31px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video6 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 31px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video7 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 31px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video8 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 31px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .video9 {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 239px;
+  margin-left: 31px;
+  overflow: hidden;
+  position: relative;
+  width: 531px;
+}
+.videoPage .videos9 {
+  background-color: transparent;
+  height: auto;
+  left: 72px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 104px;
+  white-space: nowrap;
+  width: auto;
+}
+.videoPage .videos {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 835px;
+  letter-spacing: 0.00px;
+  line-height: 73px;
+  position: absolute;
+  text-align: left;
+  top: 26px;
+  white-space: nowrap;
+  width: auto;
+}

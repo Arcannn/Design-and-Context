@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png"
+    href="https://cdn.discordapp.com/attachments/799515286373793792/829786913493614622/logo_small_icon_only.png" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <style>
+    .screen *,
+    .component-wrapper * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* holding elements center: */
+    .container-center-vertical,
+    .container-center-horizontal {
+      pointer-events: none;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container-center-vertical {
+      align-items: center;
+      height: 100%;
+    }
+
+    .container-center-horizontal {
+      justify-content: center;
+      width: 100%;
+    }
+
+    .container-center-vertical>*,
+    .container-center-horizontal>* {
+      pointer-events: auto;
+      flex-shrink: 0;
+    }
+
+    /* Pointers */
+    .smart-layers-pointers,
+    .smart-layers-pointers * {
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+    .component-wrapper.not-ready,
+    .component-wrapper.not-ready * {
+      visibility: hidden !important;
+    }
+
+    .listeners-active-click,
+    .listeners-active-click * {
+      cursor: pointer;
+    }
+
+    .border-1px-dove-gray {
+      border: 1px solid var(--dove-gray);
+    }
+
+    .border-1px-white {
+      border: 1px solid var(--white);
+    }
+
+    .border-3px-black {
+      border: 3px solid var(--black);
+    }
+
+    .border-4px-black {
+      border: 4px solid var(--black);
+    }
+
+    .segoeui-bold-white-10px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-10px-2 {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-15px {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-normal-black-15px {
+      color: var(--black-2);
+      font-family: "SegoeUI-Semibold", Helvetica;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .segoeui-regular-normal-black-20px {
+      color: var(--black);
+      font-family: "SegoeUI-Regular", Helvetica;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    :root {
+      --black: rgba(0, 0, 0, 1);
+      --black-2: rgba(0, 0, 0, 0.812);
+      --dove-gray: rgba(112, 112, 112, 1);
+      --mountain-mist: rgba(146, 146, 146, 0.49);
+      --white: rgba(255, 255, 255, 1);
+      --white-2: rgba(255, 255, 255, 0.812);
+    }
+  </style>
+</head>
+
+<body style="margin: 0; background: rgba(255, 255, 255, 1)">
+  <input type="hidden" id="anPageName" name="page" value="index" />
+  <div class="container-center-horizontal">
+    <div class="index screen">
+
+      <!-- Top section, including your picks -->
+      <img class="main-pic" src="img/npigxcc@1x.png" />
+      <div class="bar-picks border-1px-white"></div>
+      <div class="your-picks">Your Picks</div>
+      <div class="Box-set">
+        <div class="Box-set1">
+          <div class="Box1"></div>
+          <div class="Box2"></div>
+        </div>
+        <div class="Box-set2">
+          <div class="Box3"></div>
+          <div class="box4"></div>
+        </div>
+        <div class="Box-set3">
+          <div class="Box5"></div>
+          <div class="Box6"></div>
+        </div>
+      </div>
+      <div class="rectangle-11 border-1px-white"></div>
+      <div class="rectangle-12 border-1px-white"></div>
+      <div class="article-of-the-day segoeui-bold-white-15px">Article of the day</div>
+      <div class="rectangle-13 border-1px-white"></div>
+      <div class="view-more smart-layers-pointers">View more</div>
+      <img class="like-solid-1 smart-layers-pointers" src="img/like-solid@1x.png" />
+      <img class="like-solid-2 smart-layers-pointers" src="img/like-solid-1@1x.png" />
+      <div class="bar-1 border-1px-white"></div>
+
+
+      <!-- Bottom bar navigation -->
+      <div class="group-4">
+        <div class="bar-2 border-1px-white"></div>
+        <div class="linespacing">
+          <div class="line1"><img class="line-1" src="img/line-1@1x.png" /></div>
+          <div class="line2"><img class="line-2" src="img/line-1@1x.png" /></div>
+        </div>
+        <div class="home-bottom">Home</div>
+      </div>
+      <div class="group-9">
+        <div class="rectangle-10"></div>
+        <div class="bar-3"></div>
+        <div class="linespacing2">
+          <div class="line3"><img class="line-3" src="img/path-2@1x.png" /></div>
+          <div class="line4"><img class="line-4" src="img/path-2@1x.png" /></div>
+        </div>
+
+        <!-- News borders. -->
+        <div class="rectangle-27 border-1px-dove-gray"></div>
+        <div class="news">NEWS</div>
+        <div class="rectangle-43-1 border-4px-black"></div>
+        <div class="rectangle-43-2 border-4px-black"></div>
+        <div class="rectangle-43-3 border-4px-black"></div>
+
+
+
+        <!-- Top bar. -->
+        <div class="home-3">Home</div>
+        <a href="navigationPage.html">
+          <div class="drop-down-bar-3">
+            <div class="rectangle-21"></div>
+            <div class="rectangle-22"></div>
+            <div class="rectangle-23"></div>
+          </div>
+        </a>
+      </div>
+
+      <!-- Logos and imagery with titles. -->
+      <img class="logosmallicononlyinverted" src="img/logo-small-icon-only-inverted@1x.png" />
+      <img class="logolarge" src="img/logo-large@1x.png" />
+      <img class="logosmallicononly" src="img/logo-small-icon-only@1x.png" />
+      <img class="logosmallicononly-1" src="img/logo-small-icon-only-1@1x.png" />
+      <img class="image-6" src="img/image-6@1x.png" />
+      <img class="image-7" src="img/image-7@1x.png" />
+      <img class="image-8" src="img/image-8@1x.png" />
+      <img class="image-9" src="img/image-9@1x.png" />
+      <img class="image-10" src="img/image-10@1x.png" />
+      <a href="navigationPage.html">
+        <div class="history segoeui-normal-black-15px smart-layers-pointers">History</div>
+      </a>
+      <img class="image-15" src="img/image-15@1x.png" />
+      <a href="navigationPage.html">
+        <div class="news-1 segoeui-normal-black-15px smart-layers-pointers">News</div>
+      </a>
+      <img class="image-12" src="img/image-12@1x.png" />
+      <a href="navigationPage.html">
+        <div class="trending segoeui-normal-black-15px smart-layers-pointers">Trending</div>
+      </a>
+      <img class="image-13" src="img/image-13@1x.png" />
+      <a href="videoPage.html">
+        <div class="videos segoeui-normal-black-15px smart-layers-pointers">Videos</div>
+      </a>
+      <img class="image-11" src="img/image-11@1x.png" />
+      <a href="navigationPage.html">
+        <div class="weather segoeui-normal-black-15px smart-layers-pointers">Weather</div>
+      </a>
+      <img class="image-14" src="img/image-14@1x.png" />
+      <a href="navigationPage.html">
+        <div class="shop segoeui-normal-black-15px smart-layers-pointers">Shop</div>
+      </a>
+      <!-- Article of day description. -->
+      <div class="the-top-10-high-ns-in-the-world">THE TOP 10 HIGHEST MOUNTAINS IN THE WORLD</div>
+      <div class="the-highest-mou-untain-in-the-w">
+        The highest mountain in the world is Mount Everest. It’s pretty famous. Big pointy thing in the Himalayas in
+        Nepal. Sits up at 8,848m. It’s a real high mountain. Everyone knows about Mount Everest. Most people also know
+        the second highest mountain in the world is K2. But very few people know the third highest mountain in the
+        world is called Kangchenjunga. Or how to spell that. It’s not quite as simple as ‘K2’, that’s for sure. So how
+        many of the highest mountains in the world do you really know? By the time you get onto the rest of the 10
+        highest mountains in the world, most don’t have a clue. Why would you? Mount Everest is hogging all the fame.
+        And the more commonly known Seven Summits – the highest mountains on each of the seven continents in the world
+        – don’t make much of an appearance on this list. A top 10 of the world’s highest mountains contains itself
+        exclusively to Asia.
+      </div>
+      <div class="x1-mount-everest-akalu-himalayas">
+        1. MOUNT EVEREST, NEPAL/TIBET AUTONOMOUS REGION,<br />&nbsp;&nbsp;&nbsp;&nbsp;CHINA – 8848M<br />2.
+        K2, KARAKORAM, PAKISTAN/CHINA – 8611M<br />3. KANGCHENJUNGA, HIMALAYAS, NEPAL/INDIA – 8586M<br />4. LHOTSE,
+        HIMALAYAS, NEPAL/TIBET AUTONOMOUS REGION, CHINA – &nbsp;8516M <br />5. MAKALU, HIMALAYAS, NEPAL/TIBET AUTONOMOUS
+        REGION, CHINA – 8485M<br />
+      </div>
+
+      <div class="read-more-here">READ MORE HERE</div>
+
+
+      <!-- News articles. -->
+      <img class="image-16" src="img/image-16@1x.png" />
+      <div class="uk-weather-area-c-temperatures">UK WEATHER: AREAS HIT BY 11CM SNOW AND -4C TEMPERATURES</div>
+      <div class="shiveringly-col-cm-43in-of-snow segoeui-regular-normal-black-20px">
+        Shiveringly cold temperatures, as low as -4.2C, were reported overnight, with parts of the country blanketed
+        by up to 11cm (4.3in) of snow.
+      </div>
+
+      <img class="image-17" src="img/image-17@1x.png" />
+      <div class="england-born-sk-winter-olympics">
+        ENGLAND-BORN SKELETON RACER ABOUT HER HOPES<br />FOR COMPETING&nbsp;&nbsp;AT NEXT YEAR&#39;S WINTER OLYMPICS
+      </div>
+      <div class="x-dont-gasp-but-chase-her-dream segoeui-regular-normal-black-20px">
+        &#39;Don&#39;t gasp, but it costs £85,000 <br />to compete&#39; - Cohen quits job <br />to chase her dream
+      </div>
+
+      <img class="image-18" src="img/image-18@1x.png" />
+      <div class="easter-snow">EASTER SNOW</div>
+      <div class="after-a-weekend-tland-on-monday segoeui-regular-normal-black-20px">
+        After a weekend of glorious sunshine for many, it was a different story for large parts of the north of
+        Scotland on Monday.
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

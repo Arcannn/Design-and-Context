@@ -1,0 +1,905 @@
+
+.index {
+  background-color: var(--white);
+  height: 4306px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.index .about {
+  background-color: transparent;
+  height: auto;
+  left: 1798px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 4286px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .about:hover {
+
+  color: white;
+  }
+.index .after-a-weekend-tland-on-monday {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  height: 192px;
+  left: 810px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  overflow: hidden;
+  position: absolute;
+  text-align: center;
+  top: 3870px;
+  width: 302px;
+}
+.index .art-of-day-back {
+  background-color: var(--black);
+  border-radius: 12px;
+  height: 48px;
+  left: 0px;
+  position: absolute;
+  top: 1717px;
+  width: 228px;
+}
+.index .article-of-the-day {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 11px;
+  letter-spacing: 0.00px;
+  line-height: 17px;
+  position: absolute;
+  text-align: left;
+  top: 1728px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .bar {
+  background-color: var(--black);
+  height: 32px;
+  left: -4px;
+  position: fixed;
+  top: 124px;
+  width: 1924px;
+}
+.index .black-bar-1 {
+  background-color: var(--black);
+  height: 34px;
+  left: -1px;
+  position: absolute;
+  top: 4273px;
+  width: 1921px;
+}
+.index .black-bar-2 {
+  background-color: var(--black);
+  height: 125px;
+  left: -2px;
+  position: absolute;
+  top: 4182px;
+  width: 1922px;
+}
+.index .black-viewmore {
+  background-color: var(--black);
+  border-radius: 8px;
+  height: 29px;
+  left: 902px;
+  position: absolute;
+  top: 1632px;
+  width: 116px;
+}
+.index .blue-back {
+  background-color: rgb(71, 124, 146);
+  border-radius: 15px;
+  height: 822px;
+  left: -2px;
+  position: absolute;
+  top: 1717px;
+  width: 1922px;
+}
+.index .by-lorem-ipsum {
+  background-color: transparent;
+  color: var(--black-2);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 1837px;
+  letter-spacing: 0.00px;
+  line-height: 7px;
+  position: absolute;
+  text-align: left;
+  top: 956px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .drop-down-bar {
+  background-color: transparent;
+  height: 50px;
+  left: 1833px;
+  pointer-events: auto;
+  position: fixed;
+  top: 28px;
+  transition: all 0.2s ease;
+  width: 60px;
+}
+.index .drop-down-bar:hover {
+
+transform: rotate(180deg);
+}
+
+.index .easter-snow {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  height: 56px;
+  left: 821px;
+  letter-spacing: 0.00px;
+  line-height: 34px;
+  position: absolute;
+  text-align: left;
+  top: 3780px;
+  width: 281px;
+}
+.index .england-born-sk-winter-olympics {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 699px;
+  letter-spacing: 0.00px;
+  line-height: 41px;
+  position: absolute;
+  text-align: center;
+  top: 3308px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .history {
+  background-color: transparent;
+  height: auto;
+  left: 586px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1224px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .history:hover {
+
+transform: scale(1.1);
+color: red;
+}
+.index .history-back {
+  background-color: var(--nobel);
+  height: 240px;
+  left: 455px;
+  position: absolute;
+  top: 1113px;
+  width: 321px;
+}
+.index .home {
+  background-color: transparent;
+  height: auto;
+  left: 13px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 4253px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .home2 {
+  background-color: transparent;
+  height: auto;
+  left: 6px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 4286px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .home3 {
+  background-color: transparent;
+  height: auto;
+  left: 20px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: fixed;
+  text-align: left;
+  top: 134px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .image-10 {
+  background-color: transparent;
+  height: 240px;
+  left: 455px;
+  object-fit: cover;
+  position: absolute;
+  top: 1113px;
+  width: 321px;
+}
+.index .image-11 {
+  background-color: transparent;
+  height: 240px;
+  left: 796px;
+  object-fit: cover;
+  position: absolute;
+  top: 1113px;
+  width: 321px;
+}
+.index .image-12 {
+  background-color: transparent;
+  height: 240px;
+  left: 1137px;
+  object-fit: cover;
+  position: absolute;
+  top: 1113px;
+  width: 321px;
+}
+.index .image-13 {
+  background-color: transparent;
+  height: 240px;
+  left: 455px;
+  object-fit: cover;
+  position: absolute;
+  top: 1373px;
+  width: 321px;
+}
+.index .image-14 {
+  background-color: transparent;
+  height: 240px;
+  left: 796px;
+  object-fit: cover;
+  position: absolute;
+  top: 1373px;
+  width: 321px;
+}
+.index .image-15 {
+  background-color: transparent;
+  height: 240px;
+  left: 1137px;
+  object-fit: cover;
+  position: absolute;
+  top: 1373px;
+  width: 321px;
+}
+.index .image-16 {
+  background-color: transparent;
+  height: 400px;
+  left: 635px;
+  object-fit: cover;
+  position: absolute;
+  top: 2873px;
+  width: 658px;
+}
+.index .weather1 {
+  background-color: var(--mountain-mist);
+  height: 395px;
+  left: 631px;
+  position: absolute;
+  top: 2873px;
+  width: 658px;
+}
+.index .image-17 {
+  background-color: transparent;
+  height: 403px;
+  left: 637px;
+  object-fit: cover;
+  position: absolute;
+  top: 3300px;
+  width: 654px;
+}
+.index .racer {
+  background-color: var(--mountain-mist);
+  height: 403px;
+  left: 631px;
+  position: absolute;
+  top: 3294px;
+  width: 658px;
+}
+.index .image-18 {
+  background-color: transparent;
+  height: 400px;
+  left: 637px;
+  object-fit: cover;
+  position: absolute;
+  top: 3730px;
+  width: 654px;
+}
+.index .easter {
+  background-color: var(--mountain-mist);
+  height: 392px;
+  left: 633px;
+  position: absolute;
+  top: 3730px;
+  width: 654px;
+}
+.index .image-6 {
+  background-color: transparent;
+  height: 241px;
+  left: 1058px;
+  object-fit: cover;
+  position: absolute;
+  top: 1782px;
+  width: 362px;
+}
+.index .image-7 {
+  background-color: transparent;
+  height: 241px;
+  left: 1444px;
+  object-fit: cover;
+  position: absolute;
+  top: 1782px;
+  width: 361px;
+}
+.index .image-8 {
+  background-color: transparent;
+  height: 241px;
+  left: 1058px;
+  object-fit: cover;
+  position: absolute;
+  top: 2053px;
+  width: 361px;
+}
+.index .image-9 {
+  background-color: transparent;
+  height: 241px;
+  left: 1444px;
+  object-fit: cover;
+  position: absolute;
+  top: 2053px;
+  width: 361px;
+}
+.index .like-solid {
+  background-color: transparent;
+  height: 26px;
+  left: 110px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 2444px;
+  transition: all 0.2s ease;
+  width: 26px;
+}
+.index .like-solid:hover {
+
+transform: scale(1.1);
+}
+.index .like-solid2 {
+  background-color: transparent;
+  height: 21px;
+  left: 33px;
+  object-fit: cover;
+  position: absolute;
+  top: 944px;
+  width: 21px;
+}
+.index .like-solid3 {
+  background-color: transparent;
+  height: 26px;
+  left: 46px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 2444px;
+  transition: all 0.2s ease;
+  width: 26px;
+}
+.index .like-solid3:hover {
+
+transform: scale(1.1);
+}
+.index .line-1 {
+  background-color: transparent;
+  height: 34px;
+  left: 56px;
+  object-fit: cover;
+  position: absolute;
+  top: 4274px;
+  width: 1px;
+}
+.index .line-12 {
+  background-color: transparent;
+  height: 34px;
+  left: 60px;
+  object-fit: cover;
+  position: absolute;
+  top: 4274px;
+  width: 1px;
+}
+.index .line-13 {
+  background-color: transparent;
+  height: 34px;
+  left: 80px;
+  object-fit: cover;
+  position: fixed;
+  top: 124px;
+  width: 1px;
+}
+.index .line-2 {
+  background-color: transparent;
+  height: 34px;
+  left: 76px;
+  object-fit: cover;
+  position: fixed;
+  top: 124px;
+  width: 1px;
+}
+.index .logolarge {
+  background-color: transparent;
+  height: 505px;
+  left: 414px;
+  object-fit: cover;
+  position: absolute;
+  top: 341px;
+  width: 1092px;
+}
+.index .logosmallicononly {
+  background-color: transparent;
+  height: 96px;
+  left: 59px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 2560px;
+  transition: all 0.2s ease;
+  width: 96px;
+}
+.index .logosmallicononly:hover {
+
+transform: scale(0.9); 
+}
+.index .logosmallicononly2 {
+  background-color: transparent;
+  height: 74px;
+  left: 921px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 4192px;
+  transition: all 0.2s ease;
+  width: 74px;
+}
+.index .logosmallicononly2:hover {
+
+transform: scale(0.9); 
+}
+.index .logosmallicononlyinverted {
+  background-color: transparent;
+  border-radius: 29px;
+  height: 90px;
+  left: 36px;
+  object-fit: cover;
+  position: fixed;
+  top: 20px;
+  width: 90px;
+}
+.index .nav1 {
+  background-color: var(--white);
+  bottom: 0px;
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+.index .nav2 {
+  background-color: var(--white);
+  bottom: calc(48.89% - 2px);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  width: 100%;
+}
+.index .nav3 {
+  background-color: var(--white);
+  height: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.index .news {
+  background-color: transparent;
+  height: auto;
+  left: 1273px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1482px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .news:hover {
+
+transform: scale(1.1);
+color: green;
+}
+.index .news2 {
+  background-color: transparent;
+  height: auto;
+  left: 888px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  text-align: left;
+  top: 2582px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .news-back {
+  background-color: var(--nobel);
+  height: 240px;
+  left: 1137px;
+  position: absolute;
+  top: 1373px;
+  width: 321px;
+}
+.index .news-black {
+  background-color: var(--black);
+  height: 145px;
+  left: 0px;
+  position: absolute;
+  top: 2535px;
+  width: 1920px;
+}
+.index .pictureMain {
+  background-color: transparent;
+  border-radius: 24px;
+  height: 905px;
+  left: 1px;
+  object-fit: cover;
+  position: fixed;
+  opacity: 60%;
+  top: 163px;
+  width: 1918px;
+}
+.index .policy {
+  background-color: transparent;
+  height: auto;
+  left: 1862px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 4286px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .policy:hover {
+
+  color: white;
+  }
+
+.index .read-more-here {
+  -webkit-text-stroke: 0.5px var(--black);
+  background-color: transparent;
+  color: rgba(59,59,59,1.0);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 12px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2482px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .shiveringly-col-cm-43in-of-snow {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: 123px;
+  left: 774px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 2997px;
+  width: 374px;
+}
+.index .shop {
+  background-color: transparent;
+  height: auto;
+  left: 935px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1482px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .shop:hover {
+
+transform: scale(1.1);
+color: red;
+}
+.index .shop-back {
+  background-color: var(--nobel);
+  height: 240px;
+  left: 796px;
+  position: absolute;
+  top: 1373px;
+  width: 321px;
+}
+.index .the-highest-mou-untain-in-the-w {
+  background-color: transparent;
+  color: rgba(59,59,59,1.0);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: 322px;
+  left: 28px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 1850px;
+  width: 750px;
+}
+.index .the-top-10-high-ns-in-the-world {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'MalgunGothic-Bold', Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  height: 61px;
+  left: 11px;
+  letter-spacing: 0.00px;
+  line-height: 40px;
+  position: absolute;
+  text-align: left;
+  top: 1782px;
+  width: 1009px;
+}
+.index .title-header {
+  background-color: rgba(71,123,146,1.0);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.161);;
+  height: 124px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 1920px;
+}
+.index .trending {
+  background-color: transparent;
+  height: auto;
+  left: 1258px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1224px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .trending:hover {
+
+transform: scale(1.1);
+color: red;
+}
+.index .trending-back {
+  background-color: var(--nobel);
+  height: 240px;
+  left: 1137px;
+  position: absolute;
+  top: 1113px;
+  width: 321px;
+}
+.index .uk-weather-area-c-temperatures {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Bold', Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  height: 111px;
+  left: 728px;
+  letter-spacing: 0.00px;
+  line-height: 25px;
+  position: absolute;
+  text-align: left;
+  top: 2897px;
+  width: 466px;
+}
+.index .videos {
+  background-color: transparent;
+  height: auto;
+  left: 589px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1482px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .videos:hover {
+
+transform: scale(1.1);
+color: green;
+}
+.index .videos-back {
+  background-color: var(--nobel);
+  height: 240px;
+  left: 455px;
+  position: absolute;
+  top: 1373px;
+  width: 321px;
+}
+.index .view-more {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Semibold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 912px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1640px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .view-more:hover {
+
+transform: scale(0.9); 
+}
+.index .weather {
+  background-color: transparent;
+  height: auto;
+  left: 920px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 1224px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  width: auto;
+}
+.index .weather:hover {
+
+transform: scale(1.1);
+color: red;
+}
+.index .weather-back {
+  background-color: var(--nobel);
+  height: 240px;
+  left: 796px;
+  position: absolute;
+  top: 1113px;
+  width: 321px;
+}
+
+.index .x-dont-gasp-but-chase-her-dream {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 751px;
+  letter-spacing: 0.00px;
+  line-height: 39px;
+  position: absolute;
+  text-align: center;
+  top: 3438px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .x1-mount-everest-u-himalayas-nep {
+  background-color: transparent;
+  color: rgba(3,3,3,1.0);
+  font-family: 'SegoeUI-Regular', Helvetica;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  height: 217px;
+  left: 30px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  position: absolute;
+  text-align: left;
+  top: 2179px;
+  width: 952px;
+}
+.index .your-picks {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'SegoeUI-Semibold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 924px;
+  letter-spacing: 0.00px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 1082px;
+  white-space: nowrap;
+  width: auto;
+}
+.index .your-picks-bar {
+  background-color: rgba(6,0,0,1.0);
+  height: 36px;
+  left: -2px;
+  position: absolute;
+  top: 1068px;
+  width: 1922px;
+}
+.index .title-header #clock {
+  background-color: transparent;
+  border-radius: 29px;
+  left: 1600px;
+  object-fit: cover;
+  position: fixed;
+  top: 40px;
+  font-size: xx-large;
+  font-family: Arial Narrow Bold;
+  color: white;
+}
+.index  .title-header #localTime {
+  background-color: transparent;
+  border-radius: 29px;
+  left: 1435px;
+  object-fit: cover;
+  position: fixed;
+  top: 39px;
+  font-size: xx-large;
+  font-family: Arial Narrow Bold;
+  color: white;
+}

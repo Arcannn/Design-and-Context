@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <link rel="shortcut icon" type="image/png"
+    href="https://cdn.discordapp.com/attachments/799515286373793792/829786913493614622/logo_small_icon_only.png" />
+  <link rel="stylesheet" type="text/css" href="css/navigation.css" />
+  <style>
+    .component-wrapper a,
+    .screen a {
+      text-decoration: none;
+      display: contents;
+    }
+
+    .screen *,
+    .component-wrapper * {
+      box-sizing: border-box;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container-center-vertical,
+    .container-center-horizontal {
+      pointer-events: none;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container-center-vertical {
+      align-items: center;
+      height: 100%;
+    }
+
+    .container-center-horizontal {
+      justify-content: center;
+      width: 100%;
+    }
+
+    .container-center-vertical>*,
+    .container-center-horizontal>* {
+      pointer-events: auto;
+      flex-shrink: 0;
+    }
+
+    .smart-layers-pointers,
+    .smart-layers-pointers * {
+      pointer-events: auto;
+      visibility: visible;
+    }
+
+
+    .border-1px-dove-gray {
+      border: 1px solid var(--dove-gray);
+    }
+
+    .border-1px-white {
+      border: 1px solid var(--white);
+    }
+
+    .border-3px-black {
+      border: 3px solid var(--black);
+    }
+
+    .border-4px-black {
+      border: 4px solid var(--black);
+    }
+
+    .segoeui-bold-white-10px {
+      color: var(--white-2);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-10px-2 {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-bold-white-15px {
+      color: var(--white);
+      font-family: "SegoeUI-Bold", Helvetica;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    .segoeui-normal-black-15px {
+      color: var(--black-2);
+      font-family: "SegoeUI-Semibold", Helvetica;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .segoeui-regular-normal-black-20px {
+      color: var(--black);
+      font-family: "SegoeUI-Regular", Helvetica;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    :root {
+      --black: rgba(0, 0, 0, 1);
+      --black-2: rgba(0, 0, 0, 0.812);
+      --dove-gray: rgba(112, 112, 112, 1);
+      --mountain-mist: rgba(146, 146, 146, 0.49);
+      --white: rgba(255, 255, 255, 1);
+      --white-2: rgba(255, 255, 255, 0.812);
+    }
+  </style>
+</head>
+
+<body style="margin: 0; background: rgba(255, 255, 255, 1)">
+  <input type="hidden" id="anPageName" name="page" value="navigationPage" />
+  <div class="container-center-horizontal">
+    <div class="navigationPage screen">
+
+      <!-- Top bar, Holding navigation as title, logos left and right as well as the small navigation bar for the user. -->
+      <div class="overlap-group">
+        <div class="rectangle-27-top border-1px-dove-gray"></div>
+        <div class="navigation-top">NAVIGATION</div>
+        <a href="index.html"><img class="logosmallicononly-left smart-layers-pointers"
+            src="img/logo-small-icon-only@1x.png" />
+        </a>
+        <a href="index.html"><img class="logosmallicononly-right smart-layers-pointers"
+            src="img/logo-small-icon-only@1x.png" />
+        </a>
+      </div>
+
+      <!-- Lines within the small navigation bar -->
+      <div class="overlap-group2">
+        <div class="Nav-Top border-1px-white"></div>
+        <div class="LineSpacing-1">
+          <div class="line1"><img class="line-1" src="img/line-1@1x.png" /></div>
+          <div class="line2"><img class="line-2" src="img/line-1@1x.png" /></div>
+        </div>
+        <a href="index.html">
+          <div class="home-word segoeui-bold-white-10px smart-layers-pointers">Home</div>
+        </a>
+        <div class="navigation-word segoeui-bold-white-10px-2">Navigation</div>
+        <div class="LineSpacing-2">
+          <div class="line3"><img class="line-3" src="img/line-1@1x.png" /></div>
+          <div class="line4"><img class="line-4" src="img/line-1@1x.png" /></div>
+        </div>
+      </div>
+
+      <!-- Within the navigation boxes  -- the premise of the page. Some pages are not there, therefore route to index.html-->
+      <div class="overlap-group1">
+        <img class="image-1" src="img/image-1@1x.png" />
+        <div class="rectangle-28 border-1px-dove-gray"></div>
+        <div class="rectangle-29 border-1px-dove-gray"></div>
+        <div class="rectangle-30 border-1px-dove-gray"></div>
+        <div class="rectangle-31 border-1px-dove-gray"></div>
+        <div class="rectangle-32 border-1px-dove-gray"></div>
+        <div class="rectangle-34 border-1px-dove-gray"></div>
+        <div class="rectangle-35 border-1px-dove-gray"></div>
+        <a href="index.html">
+          <div class="trending segoeui-bold-white-15px smart-layers-pointers">Trending</div>
+        </a>
+        <a href="index.html">
+          <div class="news segoeui-bold-white-15px smart-layers-pointers">News</div>
+        </a>
+        <a href="index.html">
+          <div class="weather segoeui-bold-white-15px smart-layers-pointers">Weather</div>
+        </a>
+        <a href="videoPage.html">
+          <div class="videos segoeui-bold-white-15px smart-layers-pointers">Videos</div>
+        </a>
+        <a href="index.html">
+          <div class="shop segoeui-bold-white-15px smart-layers-pointers">Shop</div>
+        </a>
+        <a href="index.html">
+          <div class="profile segoeui-bold-white-15px smart-layers-pointers">Profile</div>
+        </a>
+        <a href="index.html">
+          <div class="social-media segoeui-bold-white-15px smart-layers-pointers">Social Media</div>
+        </a>
+        <div class="component-1-1"></div>
+        <a href="index.html">
+          <div class="home segoeui-bold-white-15px smart-layers-pointers">Home</div>
+        </a>
+        <div class="component-1-9"></div>
+        <a href="index.html">
+          <div class="history segoeui-bold-white-15px smart-layers-pointers">History</div>
+        </a>
+      </div>
+
+      <!-- Navigation bar at the bottom of the page. -->
+      <div class="overlap-group3">
+        <div class="Nav-Bott border-1px-white"></div>
+        <div class="group-7">
+          <div class="line-bottom border-1px-white"></div>
+          <div class="LineSpacing3">
+            <div class="line7"><img class="line-7" src="img/line-1@1x.png" /></div>
+            <div class="line8"><img class="line-8" src="img/line-1@1x.png" /></div>
+          </div>
+        </div>
+        <a href="index.html">
+          <div class="home-b segoeui-bold-white-10px smart-layers-pointers">Home</div>
+        </a>
+        <div class="LineSpacing4">
+          <div class="line5"><img class="line-5" src="img/line-1@1x.png" /></div>
+          <div class="line6"><img class="line-6" src="img/line-1@1x.png" /></div>
+        </div>
+        <div class="about-b segoeui-bold-white-10px">About</div>
+        <div class="policy-b segoeui-bold-white-10px">Policy</div>
+        <div class="navigation-b segoeui-bold-white-10px-2">Navigation</div>
+        <a href="index.html"><img class="logosmallicononly-b smart-layers-pointers"
+            src="img/logo-small-icon-only-4@1x.png" /></a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
